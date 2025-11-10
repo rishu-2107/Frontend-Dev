@@ -1,0 +1,93 @@
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f9fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.article {
+    max-width: 700px;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.article h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.article p::first-letter {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #003366;
+}
+
+.article p::first-line {
+    font-variant: small-caps;
+}
+
+
+mark {
+    background-color: #ffea8a;
+    color: #222;
+    font-weight: bold;
+}
+
+strong {
+    color: #c0392b;
+}
+
+em {
+    color: #2980b9;
+    font-style: italic;
+}
+
+/* Highlight paragraph with different font settings */
+.highlight {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
